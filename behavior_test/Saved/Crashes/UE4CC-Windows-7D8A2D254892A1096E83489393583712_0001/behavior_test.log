@@ -1,0 +1,415 @@
+﻿Log file open, 06/15/17 14:35:52
+LogInit:Display: Running engine for game: behavior_test
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1593664376) SRandInit(1593664376).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.090868
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/sammes_program_installs/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.15-12.35.53:073][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.15-12.35.53:073][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.15-12.35.53:084][  0]LogInit: Computer: DESKTOP-0A6CKR8
+[2017.06.15-12.35.53:084][  0]LogInit: User: GameLab
+[2017.06.15-12.35.53:084][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.15-12.35.53:084][  0]LogInit: High frequency timer resolution =4.101568 MHz
+[2017.06.15-12.35.53:084][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.06.15-12.35.53:084][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.15-12.35.53:084][  0]LogMemory: Process Physical Memory: 273.12 MB used, 273.12 MB peak
+[2017.06.15-12.35.53:084][  0]LogMemory: Process Virtual Memory: 260.61 MB used, 260.61 MB peak
+[2017.06.15-12.35.53:084][  0]LogMemory: Physical Memory: 7968.77 MB used,  8358.46 MB free, 16327.23 MB total
+[2017.06.15-12.35.53:084][  0]LogMemory: Virtual Memory: 638.20 MB used,  8358.46 MB free, 134217728.00 MB total
+[2017.06.15-12.35.53:128][  0]LogInit: Using OS detected language (sv-SE).
+[2017.06.15-12.35.53:128][  0]LogInit: Using OS detected locale (sv-SE).
+[2017.06.15-12.35.53:129][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the language.
+[2017.06.15-12.35.53:130][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the locale.
+[2017.06.15-12.35.53:741][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.15-12.35.53:771][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.06.15-12.35.53:771][  0]LogD3D11RHI:       8110/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.06.15-12.35.53:771][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.15-12.35.53:771][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.15-12.35.53:771][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.15-12.35.53:776][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.15-12.35.53:776][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.15-12.35.53:776][  0]LogWindows: EnumDisplayDevices:
+[2017.06.15-12.35.53:776][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.06.15-12.35.53:776][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.06.15-12.35.53:776][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.06.15-12.35.53:776][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.06.15-12.35.53:776][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.15-12.35.53:776][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.06.15-12.35.53:776][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.06.15-12.35.53:776][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.06.15-12.35.53:776][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.15-12.35.53:791][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.15-12.35.53:799][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.15-12.35.53:842][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../Users/GameLab/Documents/Unreal Projects/behavior_test/Intermediate/Shaders/WorkingDirectory/3748/).
+[2017.06.15-12.35.53:842][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/GameLab/AppData/Local/Temp/UnrealShaderWorkingDir/21E847E842E466BC54F82582451A35A9/'.
+[2017.06.15-12.35.53:842][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.15-12.35.54:590][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.15-12.35.54:622][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.15-12.35.54:654][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.15-12.35.54:686][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.15-12.35.54:719][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.15-12.35.54:751][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.15-12.35.54:783][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.15-12.35.54:815][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.15-12.35.54:843][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.15-12.35.54:874][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.15-12.35.54:905][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.15-12.35.54:936][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.15-12.35.54:968][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.15-12.35.54:999][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.15-12.35.55:030][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.15-12.35.55:095][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.15-12.35.55:095][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.15-12.35.55:119][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.15-12.35.55:186][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.15-12.35.55:205][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.15-12.35.55:236][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.15-12.35.55:267][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.15-12.35.55:298][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.15-12.35.55:330][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.15-12.35.55:330][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.15-12.35.55:638][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.15-12.35.55:702][  0]LogDerivedDataCache: Loaded boot cache 0.06s 90MB C:/Users/GameLab/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.15-12.35.55:702][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/GameLab/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.15-12.35.55:702][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/GameLab/Documents/Unreal Projects/behavior_test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.15-12.35.55:702][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.15-12.35.55:702][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/GameLab/Documents/Unreal Projects/behavior_test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.15-12.35.55:702][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.15-12.35.55:713][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.15-12.35.55:725][  0]LogDerivedDataCache: Using Local data cache path C:/Users/GameLab/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.15-12.35.55:731][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.15-12.35.55:732][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.15-12.35.55:732][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.15-12.35.55:732][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.15-12.35.55:937][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.15-12.35.55:984][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.15-12.35.56:086][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.15-12.35.56:114][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.15-12.35.56:142][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.15-12.35.56:142][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.15-12.35.56:142][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.15-12.35.56:497][  0]LogNetVersion: behavior_test , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 945375219)
+[2017.06.15-12.35.56:544][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2017.06.15-12.35.56:571][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.013435 seconds
+[2017.06.15-12.35.56:575][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.15-12.35.56:575][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.15-12.35.56:575][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.15-12.35.56:614][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.15-12.35.58:113][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.15-12.35.58:140][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.15-12.35.58:519][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.15-12.35.58:768][  0]SourceControl: Info Source control is disabled
+[2017.06.15-12.35.58:769][  0]SourceControl: Info Source control is disabled
+[2017.06.15-12.35.58:797][  0]SourceControl: Info Source control is disabled
+[2017.06.15-12.35.58:825][  0]SourceControl: Info Source control is disabled
+[2017.06.15-12.35.59:245][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.15-12.35.59:606][  0]LogEngine: Initializing Engine...
+[2017.06.15-12.35.59:606][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.15-12.35.59:745][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.15-12.35.59:745][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.15-12.35.59:823][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.15-12.35.59:830][  0]LogInit: XAudio2 using 'Hörlurar på headset (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-12.35.59:840][  0]LogInit: FAudioDevice initialized.
+[2017.06.15-12.35.59:870][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/GameLab/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.15-12.35.59:875][  0]LogInit: Texture streaming: Enabled
+[2017.06.15-12.35.59:934][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.15-12.36.00:065][  0]LogInit: Transaction tracking system initialized
+[2017.06.15-12.36.00:252][  0]BlueprintLog: New page: Editor Load
+[2017.06.15-12.36.00:825][  0]LocalizationService: Info Localization service is disabled
+[2017.06.15-12.36.01:243][  0]LogConsoleResponse:Display: 
+[2017.06.15-12.36.01:345][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.15-12.36.01:345][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.15-12.36.01:378][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameLab/Documents/Unreal Projects/behavior_test/Content/' took 0.01s
+[2017.06.15-12.36.01:953][  0]SourceControl: Info Source control is disabled
+[2017.06.15-12.36.01:953][  0]Cmd: MAP LOAD FILE="../../../../../Users/GameLab/Documents/Unreal Projects/behavior_test/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.15-12.36.01:953][  0]LightingResults: New page: Lighting Build
+[2017.06.15-12.36.01:978][  0]MapCheck: New page: Map Check
+[2017.06.15-12.36.01:978][  0]LightingResults: New page: Lighting Build
+[2017.06.15-12.36.02:376][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.06.15-12.36.02:381][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.15-12.36.02:392][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.15-12.36.02:423][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.762ms to complete.
+[2017.06.15-12.36.02:423][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.471
+[2017.06.15-12.36.02:627][  0]LogCollectionManager: Loaded 0 collections in 0.000886 seconds
+[2017.06.15-12.36.02:695][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameLab/Documents/Unreal Projects/behavior_test/Saved/Collections/' took 0.01s
+[2017.06.15-12.36.02:695][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameLab/Documents/Unreal Projects/behavior_test/Content/Developers/GameLab/Collections/' took 0.01s
+[2017.06.15-12.36.02:695][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameLab/Documents/Unreal Projects/behavior_test/Content/Collections/' took 0.01s
+[2017.06.15-12.36.02:695][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.06.15-12.36.02:701][  0]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 2329 classes and 491 folders.
+[2017.06.15-12.36.02:741][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.06.15-12.36.02:913][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.06.15-12.36.02:940][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.15-12.36.02:964][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.15-12.36.02:967][  0]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.15-12.36.02:969][  0]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.15-12.36.02:974][  0]LogSlate: Took 0.002633 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.15-12.36.03:070][  0]LogRenderer: Reallocating scene render targets to support 1616x808 NumSamples 1 (Frame:1).
+[2017.06.15-12.36.03:142][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.15-12.36.03:190][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.15-12.36.03:190][  0]LogLoad: (Engine Initialization) Total time: 11.28 seconds
+[2017.06.15-12.36.03:190][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.06.15-12.36.03:190][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.15-12.36.03:201][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.15-12.36.03:201][  0]LogOcInput: OculusInput pre-init called
+[2017.06.15-12.36.03:201][  0]LogHMD: Starting GearVRController plugin
+[2017.06.15-12.36.03:223][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.15-12.36.03:262][  1]LogAssetRegistry: Asset discovery search completed in 6.7407 seconds
+[2017.06.15-12.36.03:263][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.06.15-12.36.03:263][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2017.06.15-12.36.04:219][113]LogSlate: Took 0.002308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.15-12.37.02:063][ 52]LogSlate: Took 0.000086 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.15-12.37.02:303][ 52]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 112 classes and 0 folders.
+[2017.06.15-12.37.11:994][921]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.15-12.38.33:756][562]LogEditorTransaction: Undo Add Variable
+[2017.06.15-12.38.50:593][571]LogSlate: Took 0.003207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.06.15-12.41.38:863][196]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.15-12.41.38:999][196]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/TopDownBP/BTService_BlueprintBase_New.
+[2017.06.15-12.41.39:147][196]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/TopDownBP/BTService_BlueprintBase_New1.
+[2017.06.15-12.41.49:083][380]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.15-12.41.53:681][930]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.15-12.41.53:809][930]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/TopDownBP/BTService_BlueprintBase_New1_New.
+[2017.06.15-12.41.57:719][392]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.15-12.42.50:446][675]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.15-12.42.50:573][675]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/TopDownBP/BTService_BlueprintBase_New.
+[2017.06.15-12.46.04:014][580]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.016
+[2017.06.15-12.46.04:015][580]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/BTService_BlueprintBase_New] ([1] browsable assets)...
+[2017.06.15-12.46.04:015][580]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/BTService_BlueprintBase_New]
+[2017.06.15-12.46.04:021][580]LogSavePackage: Save=4.46ms
+[2017.06.15-12.46.04:021][580]LogSavePackage: Moving '../../../../../Users/GameLab/Documents/Unreal Projects/behavior_test/Saved/BTService_BlueprintBase_New_Auto149B1FF954E549FBCB9565AB57B132280.tmp' to '../../../../../Users/GameLab/Documents/Unreal Projects/behavior_test/Saved/Autosaves/Game/TopDownBP/BTService_BlueprintBase_New_Auto1.uasset'
+[2017.06.15-12.46.04:022][580]LogSavePackage:Display: Finished SavePackage ../../../../../Users/GameLab/Documents/Unreal Projects/behavior_test/Saved/Autosaves/Game/TopDownBP/BTService_BlueprintBase_New_Auto1.uasset
+[2017.06.15-12.46.04:022][580]LogFileHelpers: Auto-saving content packages took 0.007
+[2017.06.15-12.49.23:528][ 49]LogMetaData: Removing '/Game/TopDownBP/AgroCheck.SKEL_AgroCheck_C' ref from Metadata '/Game/TopDownBP/BTService_BlueprintBase_New.PackageMetaData'
+[2017.06.15-12.49.23:528][ 49]LogMetaData: Removing '/Game/TopDownBP/AgroCheck.AgroCheck_C' ref from Metadata '/Game/TopDownBP/BTService_BlueprintBase_New.PackageMetaData'
+[2017.06.15-12.49.23:546][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/AgroCheck" FILE="../../../../../Users/GameLab/Documents/Unreal Projects/behavior_test/Content/TopDownBP/AgroCheck.uasset" SILENT=true
+[2017.06.15-12.49.23:555][ 49]LogSavePackage: Save=7.33ms
+[2017.06.15-12.49.23:555][ 49]LogSavePackage: Moving '../../../../../Users/GameLab/Documents/Unreal Projects/behavior_test/Saved/AgroCheck316D576F43BDC75378A3AC833BA2316D.tmp' to '../../../../../Users/GameLab/Documents/Unreal Projects/behavior_test/Content/TopDownBP/AgroCheck.uasset'
+[2017.06.15-12.49.23:557][ 49]LogSavePackage:Display: Finished SavePackage ../../../../../Users/GameLab/Documents/Unreal Projects/behavior_test/Content/TopDownBP/AgroCheck.uasset
+[2017.06.15-12.49.23:700][ 53]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/AgroCheck.
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19767"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19779"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19794"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19800"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19806"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19848"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19860"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19866"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19914"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19953"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19962"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19968"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20016"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20028"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20037"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20058"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20064"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20070"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20088"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20094"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20100"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20106"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20124"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20142"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20154"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20172"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20178"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20190"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20196"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20208"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20214"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20220"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20226"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20232"
+[2017.06.15-12.50.02:200][621]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20238"
+[2017.06.15-12.50.02:337][621]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.127 s
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: === Handled ensure: ===
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: 
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: Ensure condition failed: FunctionReference.IsSelfContext() || (MemberClass != nullptr) || bIsLocalMacro [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\K2Node_CallFunction.cpp] [Line: 1701]
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: Unknown member class in /Game/TopDownBP/AgroCheck.AgroCheck:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_24
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: Stack: 
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004883E1C6
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000485EB7D2
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000048601D96
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000343BECC6
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000343D986F
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000368D2B0D
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000368BA4A0
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000350245CD
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000350243AF
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000034FB0961
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000034FB55A6
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000463FEB50
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000046443D60
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000033AAFDBD
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000463E9021
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000463B840E
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000463BA006
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000464455AD
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000046436518
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000488313AC
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004881B6E1
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000488332EB
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000048817A32
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: USER32.dll!0x000000006702BC50
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: USER32.dll!0x000000006702B5CF
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000048833BF6
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor.exe!0x000000004619DB44
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor.exe!0x000000004618F0B0
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor.exe!0x000000004618F12A
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor.exe!0x00000000461A0CF9
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: UE4Editor.exe!0x00000000461A25F7
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: KERNEL32.DLL!0x0000000067AD2774
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: ntdll.dll!0x00000000699B0D61
+[2017.06.15-12.50.02:337][621]LogOutputDevice:Error: 
+[2017.06.15-12.50.02:345][621]LogStats:                SubmitErrorReport -  0.000 s
+[2017.06.15-12.50.02:474][621]LogStats:                    SendNewReport -  0.129 s
+[2017.06.15-12.50.02:474][621]LogStats:             FDebug::EnsureFailed -  0.264 s
+[2017.06.15-12.50.02:474][621]LogBlueprint:Error: [AgroCheck] CommutativeAssociativeBinaryOperator has no function: 'None' class: 'None'
+[2017.06.15-12.50.02:504][622]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.15-12.50.19:287][619]LogEditorTransaction: Undo Paste clipboard contents
+[2017.06.15-12.50.23:544][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/AgroCheck" FILE="../../../../../Users/GameLab/Documents/Unreal Projects/behavior_test/Content/TopDownBP/AgroCheck.uasset" SILENT=true
+[2017.06.15-12.50.23:552][125]LogSavePackage: Save=3.91ms
+[2017.06.15-12.50.23:552][125]LogSavePackage: Moving '../../../../../Users/GameLab/Documents/Unreal Projects/behavior_test/Saved/AgroCheck5E3031F44BF793DC9CA6AE88C8D43C06.tmp' to '../../../../../Users/GameLab/Documents/Unreal Projects/behavior_test/Content/TopDownBP/AgroCheck.uasset'
+[2017.06.15-12.50.23:554][125]LogSavePackage:Display: Finished SavePackage ../../../../../Users/GameLab/Documents/Unreal Projects/behavior_test/Content/TopDownBP/AgroCheck.uasset
+[2017.06.15-12.50.40:389][886]LogEditorTransaction: Undo Add New Function
+[2017.06.15-12.51.01:847][428]LogEditorTransaction: Undo Add Node
+[2017.06.15-12.52.04:058][792]LogEditorTransaction: Undo Add Variable
+[2017.06.15-12.52.48:370][441]LogEditorTransaction: Undo Add Node
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19767"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19779"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19794"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19800"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19806"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19848"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19860"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19866"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19914"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19953"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19962"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19968"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20016"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20028"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20037"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20058"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20064"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20070"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20088"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20094"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20100"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20106"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20124"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20142"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20154"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20172"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20178"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20190"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20196"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20208"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20214"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20220"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20226"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20232"
+[2017.06.15-12.53.03:575][980]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20238"
+[2017.06.15-12.53.03:585][980]LogBlueprint:Error: [AgroCheck] CommutativeAssociativeBinaryOperator has no function: 'None' class: 'None'
+[2017.06.15-12.53.43:776][769]LogEditorTransaction: Undo Move Node
+[2017.06.15-12.53.44:209][818]LogEditorTransaction: Undo Rename Node
+[2017.06.15-12.53.45:111][924]LogEditorTransaction: Undo Paste clipboard contents
+[2017.06.15-13.01.33:925][320]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.025
+[2017.06.15-13.01.33:926][320]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/AgroCheck] ([1] browsable assets)...
+[2017.06.15-13.01.33:926][320]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/AgroCheck]
+[2017.06.15-13.01.33:933][320]LogSavePackage: Save=4.87ms
+[2017.06.15-13.01.33:933][320]LogSavePackage: Moving '../../../../../Users/GameLab/Documents/Unreal Projects/behavior_test/Saved/AgroCheck_Auto28B557C7B426B4BD1744CA0994F039184.tmp' to '../../../../../Users/GameLab/Documents/Unreal Projects/behavior_test/Saved/Autosaves/Game/TopDownBP/AgroCheck_Auto2.uasset'
+[2017.06.15-13.01.33:934][320]LogSavePackage:Display: Finished SavePackage ../../../../../Users/GameLab/Documents/Unreal Projects/behavior_test/Saved/Autosaves/Game/TopDownBP/AgroCheck_Auto2.uasset
+[2017.06.15-13.01.33:934][320]LogFileHelpers: Auto-saving content packages took 0.008
+[2017.06.15-13.04.48:018][ 62]LogEditorTransaction: Undo Rename Variable
+[2017.06.15-13.04.48:378][103]LogEditorTransaction: Undo Rename Variable
+[2017.06.15-13.04.48:897][165]LogEditorTransaction: Undo Add Variable
+[2017.06.15-13.04.49:254][207]LogEditorTransaction: Undo Change Parameter Type
+[2017.06.15-13.04.49:255][207]LogClass:Warning: Type mismatch in MyLocation of SKEL_AgroCheck_C - Previous (StructProperty) Current(ByteProperty) for package:  FObjectReader
+[2017.06.15-13.04.49:614][249]LogEditorTransaction: Undo Rename Variable
+[2017.06.15-13.04.49:897][282]LogEditorTransaction: Undo Add Variable
+[2017.06.15-13.04.50:246][323]LogEditorTransaction: Undo Rename Variable
+[2017.06.15-13.04.50:628][368]LogEditorTransaction: Undo Change Parameter Type
+[2017.06.15-13.04.50:985][410]LogEditorTransaction: Undo Add Variable
+[2017.06.15-13.04.52:175][551]LogEditorTransaction: Undo Add Node
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19767"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19779"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19794"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19800"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19806"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19848"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19860"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19866"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19914"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19953"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19962"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_19968"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20016"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20028"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20037"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20058"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20064"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20070"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20088"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20094"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20100"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20106"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20124"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20142"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20154"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20172"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20178"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20190"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20196"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20208"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20214"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20220"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20226"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20232"
+[2017.06.15-13.05.03:767][932]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_20238"
+[2017.06.15-13.05.03:780][932]LogBlueprint:Error: [AgroCheck] CommutativeAssociativeBinaryOperator has no function: 'None' class: 'None'

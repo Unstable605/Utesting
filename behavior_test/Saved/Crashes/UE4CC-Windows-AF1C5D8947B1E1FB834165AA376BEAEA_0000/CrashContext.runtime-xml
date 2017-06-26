@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-AF1C5D8947B1E1FB834165AA376BEAEA_0000</CrashGUID>
+		<ProcessId>5344</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>true</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<SecondsSinceStart>16070</SecondsSinceStart>
+		<GameName>UE4-behavior_test</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Vanilla</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.16.1-3466753+++UE4+Release-4.16</EngineVersion>
+		<CommandLine>&quot;C:\Users\GameLab\Documents\Unreal Projects\behavior_test\behavior_test.uproject&quot;-EpicPortal</CommandLine>
+		<LanguageLCID>1053</LanguageLCID>
+		<AppDefaultLocale>sv-SE</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.16-CL-3466753</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>GameLab</UserName>
+		<BaseDir>C:/sammes_program_installs/UE_4.16/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/sammes_program_installs/UE_4.16/</RootDir>
+		<MachineId>56CF2A0946BE51FCD0D28B99AE755B6F</MachineId>
+		<LoginId>56cf2a0946be51fcd0d28b99ae755b6f</LoginId>
+		<EpicAccountId>f0c9af1e7e554e9eb6ce69a80c7f0716</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint>Layout=&quot;Document : 0&quot; Label=&quot;Event Graph&quot; Content=SGraphEditor</UserActivityHint>
+		<ErrorMessage>Ensure condition failed: FunctionReference.IsSelfContext() || (MemberClass != nullptr) || bIsLocalMacro [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\K2Node_CallFunction.cpp] [Line: 1701] &nl;Unknown member class in /Game/TopDownBP/AgroCheck.AgroCheck:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_24&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1080</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>17120342016</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>8474128384</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140733840183296</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>967434240</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>1236430848</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>2766823424</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>2766823424</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636331267079720000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>
